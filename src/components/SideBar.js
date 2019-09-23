@@ -3,10 +3,7 @@ import './SideBar.css';
 
 
 class SideBar extends Component {
-    constructor(props) {
-        super(props)
-    }
-
+    
     render() {
         let notes = this.props.filterNotes()
 

@@ -2,10 +2,7 @@ import React, {Component} from 'react';
 import './NoteArea.css';
 
 class NoteArea extends Component {
-    constructor(props) {
-        super(props)       
-    }
-
+    
     onChangeHandler = (e) => {
         let note = this.props.note
         note.title = e.target.value.slice(0,20);

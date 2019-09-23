@@ -50,7 +50,7 @@ class Header extends Component {
                         onClick={this.columnBtnHandler}
                         className="nav-btns"
                     >
-                        <img src={column} />
+                        <img src={column} alt="toggle sidebar" />
                     </button>
 
 
@@ -59,21 +59,21 @@ class Header extends Component {
                         onClick={this.blocksBtnHandler}
                         className="nav-btns"
                     >
-                        <img src={blocks} />
+                        <img src={blocks} alt="toggle notes view" />
                     </button>
 
                     <button
                         onClick={this.trashBtnHandler}
                         className="nav-btns"
                     >
-                        <img src={trash} />
+                        <img src={trash} alt="delete note" />
                     </button>
 
                     <button
                         onClick={this.newBtnHandler}
                         className="nav-btns"
                     >
-                        <img src={edit} />
+                        <img src={edit} alt="new note" />
                     </button>
 
                     <button
@@ -81,15 +81,14 @@ class Header extends Component {
                         onClick={this.checkBtnHandler}
                         className="nav-btns"
                     >
-                        <img src={check} />
+                        <img src={check} alt="checklist" />
                     </button>
 
                     <button
-                        // disabled={true}
                         onClick={this.lockBtnHandler}
                         className="nav-btns"
                     >
-                        <img src={lock} />
+                        <img src={lock} alt="lock note" />
                     </button>
 
 
