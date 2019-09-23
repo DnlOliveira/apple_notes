@@ -1,0 +1,42 @@
+.Header {
+    height: 50px;
+    background-color: #D1D1D1;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    display: flex;
+    justify-content: center;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.nav-btns {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 55px;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+}
+
+.search-bar {
+    height: 30px;
+    width: 30%;
+    border: 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 20px;
+}
